@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour
 
         if (count == 12) 
         {
-            transform.position = new Vector3(50.0f, transform.position.y, 0.0f);
+            transform.position = new Vector3(24.39f, transform.position.y, transform.position.z);
         }
 
         if (Input.GetKey("escape"))
